@@ -1,4 +1,4 @@
-FROM node:20-alphine as builder
+FROM node:16.18-alpine as builder
 
 
 WORKDIR /vue-ui
