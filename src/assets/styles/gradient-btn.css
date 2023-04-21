@@ -1,0 +1,11 @@
+.gradient-btn-blue {
+  background-image: linear-gradient(to right, #279AF1 0%, #277ff1 75%) !important;
+}
+
+.gradient-btn-red-blue {
+  background-image: linear-gradient(to right, #B3001B 0%, #279AF1 75%) !important;
+}
+
+.gradient-btn-red-blue-secondary {
+  background-image: linear-gradient(to right, #A62639 0%, #3F7CAC 75%) !important;
+}

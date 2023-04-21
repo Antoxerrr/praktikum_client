@@ -1,0 +1,55 @@
+.v-application .text-primary {
+    color: rgb(var(--v-theme-text-primary)) !important;
+}
+
+.v-application .text-secondary {
+    color: rgb(var(--v-theme-text-secondary)) !important;
+}
+
+.v-application .text-muted {
+    color: rgb(var(--v-theme-text-muted)) !important;
+}
+
+.v-application .text-red-primary {
+    color: rgb(var(--v-theme-red-primary)) !important;
+}
+
+.v-application .text-red-secondary {
+    color: rgb(var(--v-theme-red-secondary)) !important;
+}
+
+.v-application .text-blue-primary {
+    color: rgb(var(--v-theme-blue-primary)) !important;
+}
+
+.v-application .text-blue-secondary {
+    color: rgb(var(--v-theme-blue-secondary)) !important;
+}
+
+.v-application .text-accent {
+    color: rgb(var(--v-theme-accent)) !important;
+}
+
+.v-application .text-accent-light {
+    color: rgb(var(--v-theme-accent-light)) !important;
+}
+
+.v-application .bg-dark-alt {
+    background-color: rgb(var(--v-theme-background-alt)) !important;
+}
+
+.v-application .bg-dark-soft {
+    background-color: rgb(var(--v-theme-background-soft)) !important;
+}
+
+.v-application .bg-red-primary {
+    background-color: rgb(var(--v-theme-red-primary)) !important;
+}
+
+.v-application .bg-red-secondary {
+    background-color: rgb(var(--v-theme-red-secondary)) !important;
+}
+
+.v-application .soft-border-top {
+    border-top: 1px solid rgba(216, 219, 223, 0.05);
+}
