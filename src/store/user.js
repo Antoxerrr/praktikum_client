@@ -37,7 +37,6 @@ export const useUserStore = defineStore('user', {
     async logout() {
       startGlobalLoading();
       try {
-        await axios.post('/users/auth/logout/');
         destroyToken();
         removeAccount();
         clearHeader();

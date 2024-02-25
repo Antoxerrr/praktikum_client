@@ -7,7 +7,6 @@
       type="text"
       variant="underlined"
       class="mb-2 border-0"
-      :rules="rules.username"
       v-model="form.username"
       :readonly="lockFields"
     ></v-text-field>
@@ -17,9 +16,7 @@
       label="Пароль"
       name="password"
       type="password"
-      hint="Минимум 8 символов"
       variant="underlined"
-      :rules="rules.password"
       v-model="form.password"
       :readonly="lockFields"
     ></v-text-field>
@@ -60,18 +57,6 @@ export default {
     form: {
       username: '',
       password: ''
-    },
-    rules: {
-      username: [
-        required,
-        maxLength(16),
-        minLength(4)
-      ],
-      password: [
-        required,
-        maxLength(128),
-        minLength(8)
-      ],
     },
     serverFormError: ''
   }),
